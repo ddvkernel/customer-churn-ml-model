@@ -1,6 +1,6 @@
 # Customer Churn Prediction Model
 
-A complete end-to-end machine learning project predicting customer churn for a telecom company. Built over 7 days using Logistic Regression, covering data exploration, feature engineering, model selection, hyperparameter tuning, and interpretation.
+A complete end-to-end machine learning project predicting customer churn for a telecom company. Built using Logistic Regression, covering data exploration, feature engineering, model selection, hyperparameter tuning, and interpretation.
 
 ## Project Overview
 
@@ -46,18 +46,13 @@ A complete end-to-end machine learning project predicting customer churn for a t
 ```
 churn-model/
 ├── README.md                      # This file
-├── CustomerChurn.py               # Complete ML pipeline (Days 1-7)
+├── CustomerChurn.py               # Complete ML pipeline
 ├── CHURN_MODEL_SUMMARY.md        # Technical summary & actionable insights
 ├── data/
 │   └── telco_churn.csv           # Raw dataset (7,043 rows, 21 features)
-├── models/
-│   ├── churn_model.pkl           # Serialized Logistic Regression model
-│   └── scaler.pkl                # StandardScaler for feature normalization
 └── outputs/
-    ├── 01_eda_plots.png          # Day 1: Distribution plots & relationships
-    ├── 06_feature_coefficients.png # Day 6: Top 15 feature importance
-    ├── 06_confusion_matrix.png    # Day 6: Prediction accuracy breakdown
-    └── 06_roc_curve.png           # Day 6: ROC-AUC visualization
+    ├── 06_feature_coefficients.png # Top 15 feature importance
+    └── 06_confusion_matrix.png    # Prediction accuracy breakdown
 ```
 
 ---
@@ -182,7 +177,7 @@ Actual Churn       165   |  209    (Sensitivity/Recall: 55.9%)
 
 ## Technologies Used
 
-- **Python 3.8+**
+- **Python 3.14**
 - **scikit-learn** — Model training & evaluation
 - **pandas** — Data manipulation
 - **numpy** — Numerical computing
